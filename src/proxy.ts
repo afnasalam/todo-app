@@ -1,7 +1,6 @@
 import { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 
-export const runtime = 'edge';
 const MAX_HITS = 10
 
 let userHits = 0;
